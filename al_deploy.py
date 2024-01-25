@@ -7,7 +7,7 @@ from keras.preprocessing import image
 from PIL import Image
 from keras.applications.vgg16 import preprocess_input
 # Load your trained model
-MODEL_PATH = 'CNN_model.h5'
+MODEL_PATH = r'd:\project documentation\alzheimers models\deploy\new folder\al_deploy\CNN_model.h5'
 model = load_model(MODEL_PATH)
 
 # Function for processing the input image and prediction
@@ -23,7 +23,7 @@ def model_predict(img_path, model):
 
 # Main Streamlit app
 def main():
-    st.title("Cognitive Impairment Prediction")
+    st.title('''Alzheimer's Disease Diagnosis App''')
 
     uploaded_file = st.file_uploader("Choose an image...", type="jpg")
 
