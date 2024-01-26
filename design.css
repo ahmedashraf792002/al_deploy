@@ -1,0 +1,136 @@
+span.css-10trblm.e16nr0p33
+{
+background-color: red
+}
+h1 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    color: rgb(120, 80, 90);
+    padding: 1.25rem 0px 1rem;
+    margin: 0px;
+    line-height: 1.2;
+}
+st-emotion-cache-1aubgxs {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: .5rem;
+    background-color: rgb(120, 100, 180);
+    border-radius: 0.1rem;
+    color: rgb(80, 100, 250);
+}
+.st-emotion-cache-hxq9fz {
+    position: absolute;
+    background: rgb(1, 80, 100);
+    color: rgb(47, 20, 38);
+    inset: 0px;
+    color-scheme: auto;
+    overflow: hidden;
+}
+.stImageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Make sure the container takes the full width */
+    height: 100vh; /* Make sure the container takes the full viewport height */
+}
+
+.stImageContainer img {
+    max-width: 100%; /* Ensure the image doesn't exceed the container width */
+    max-height: 100%; /* Ensure the image doesn't exceed the container height */
+}
+
+
+body {
+    margin: 0px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 100;
+    line-height: 1.6;
+    color: rgb(47, 20, 38);
+    background-color: rgb(255, 255, 255);
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-font-smoothing: auto;
+}
+.st-emotion-cache-18ni7ap {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 2.875rem;
+    background: rgb(1, 80, 100);
+    outline: none;
+    z-index: 999990;
+    display: block;
+}
+.st-emotion-cache-c2zu9o {
+    font-size: 14px;
+    color: rgb(1, 250, 200);
+    display: flex;
+    visibility: visible;
+    margin-bottom: 0.25rem;
+    height: auto;
+    min-height: 1.5rem;
+    vertical-align: middle;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.st-emotion-cache-139nbww {
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-weight: 400;
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.5rem;
+    min-height: 38.4px;
+    margin: 0px;
+    line-height: 1.6;
+    color: inherit;
+    width: auto;
+    user-select: none;
+    background-color: rgb(25,25,112);
+    border: 1px solid rgba(25,25,112);
+}
+.st-emotion-cache-1r88kup {
+    color: rgb(25,25,255);
+    font-size: 14px;
+    line-height: 1.25;
+}
+element.style {
+    width: 200px;
+}
+.st-emotion-cache-1aubgxs {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgb(0,0,128);
+    border-radius: 0.5rem;
+    color: rgb	(70,130,180);
+}
+
+.img-preview {
+    width: 256px;
+}
+.st-b5 {
+    color: rgb(250,120, 150);
+}
+.st-emotion-cache-hxq9fz {
+    position: absolute;
+    background: rgb(1, 80, 100);
+    color: rgb(47, 150, 38);
+    inset: 0px;
+    color-scheme: auto;
+    overflow: hidden;
+}
+.st-emotion-cache-hxq9fz {
+    position: absolute;
+    background: rgb(1, 80, 100);
+    color: rgb(220, 50, 120);
+    inset: 0px;
+    color-scheme: auto;
+    overflow: hidden;
+}
