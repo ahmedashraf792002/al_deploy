@@ -8,7 +8,7 @@ from PIL import Image
 from keras.applications.vgg16 import preprocess_input
 # Load your trained model
 
-MODEL_PATH = r'd:\project documentation\alzheimers models\deploy\new folder\al_deploy\CNN_model.h5'
+MODEL_PATH = 'CNN_model.h5'
 model = load_model(MODEL_PATH)
 
 # Function for processing the input image and prediction
@@ -26,14 +26,13 @@ def model_predict(img_path, model):
 def main():
     
     with st.sidebar:
-        image_path = r'd:\project documentation\alzheimers models\deploy\new folder\al_deploy\Alzheimer-2.jpg'
+        image_path = 'Alzheimer-2.jpg'
         image=Image.open(image_path)
         st.image(image, caption='Welcome In leader Site')
         st.write('The Site For Alzheimer''s Disease Diagnosis For 4 Class ADNI Data Categories')
         choice = st.radio("ADNI Dataset :", ["Alzheimer's disease", "Cognitively normal"
                                              ,"Early mild cognitive impairment","Late mild cognitive impairment"])
-        #choice = st.radio("Choose Your Operation", ["Upload Your Data", "Data Exploration","Data Preparing","EDA","Model"])
-    with open(r'd:\project documentation\alzheimers models\deploy\new folder\al_deploy\design.css') as source_des:
+    with open('design.css') as source_des:
         st.markdown(f"<style>{source_des.read()}</style>",unsafe_allow_html=True)
     st.markdown("<h1 style='text-align: center;'>Alzheimer's Disease Diagnosis App</h1>",unsafe_allow_html=True)
     #st.title('''Alzheimer's Disease Diagnosis App''')
